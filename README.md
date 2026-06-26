@@ -112,30 +112,22 @@ The AI Assistant runs entirely on the local computer using <b>Ollama</b> and the
 <hr>
 
 <h2 align="center">🖥️ Project User Interface</h2>
+<h2 align="center">🖥️ Project User Interface</h2>
 
 <p align="center">
-The following screenshots present the complete user interface and workflow of the <b>GenAI-Powered IT Service Desk Assistant</b>. Each module has been designed with a clean, responsive, and user-friendly interface using <b>Bootstrap 5</b>, ensuring an intuitive experience for both administrators and end users.
+The following screenshots showcase the complete user interface and workflow of the <b>GenAI-Powered IT Service Desk Assistant</b>. Built with <b>Bootstrap 5</b>, the application offers a clean, responsive, and user-friendly experience across all modules.
 </p>
 
 <p align="justify">
-The user interface has been carefully designed to simplify the complete IT support lifecycle, allowing users to navigate effortlessly between different modules. Every page follows a consistent design language with responsive layouts, informative cards, intuitive navigation menus, and visually appealing components that improve usability across desktop and mobile devices.
+The interface guides users through the complete IT support process, including incident creation, dashboard monitoring, Knowledge Base management, intelligent search, and AI-powered troubleshooting. The application first searches the Knowledge Base for existing solutions and then leverages the locally hosted <b>Microsoft Phi-3 Mini</b> model through <b>Ollama</b> to generate intelligent troubleshooting recommendations when needed.
 </p>
 
 <p align="justify">
-From reporting a new IT incident to receiving AI-generated troubleshooting recommendations, the application provides a seamless and interactive experience. The dashboard offers real-time insights into incident statistics, while dedicated pages enable users to create incidents, browse troubleshooting articles, search the Knowledge Base, and communicate with the AI Assistant using natural language.
+The screenshots below demonstrate each module in sequence, highlighting the application's intuitive design, seamless navigation, and complete workflow from incident reporting to AI-generated technical support.
 </p>
 
-<p align="justify">
-The AI Assistant follows a hybrid troubleshooting approach by first searching the organization's Knowledge Base for relevant solutions. If no matching article is found, the application securely communicates with the locally hosted <b>Microsoft Phi-3 Mini</b> Large Language Model through <b>Ollama</b>, generating intelligent and context-aware troubleshooting guidance without relying on external cloud services.
-</p>
+<hr>
 
-<p align="justify">
-The responsive Bootstrap-based interface ensures fast navigation, improved readability, and a consistent user experience across all modules. Interactive cards, structured forms, clear status indicators, and organized layouts help users quickly access important information while minimizing complexity during daily IT support operations.
-</p>
-
-<p align="justify">
-The screenshots below demonstrate each functional component of the application in sequence, illustrating how traditional IT Service Management practices are enhanced through Artificial Intelligence. Together, they showcase the complete workflow—from incident creation and Knowledge Base management to AI-powered issue analysis and intelligent troubleshooting—providing a comprehensive overview of the system's capabilities.
-</p>
 
 <hr>
 

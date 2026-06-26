@@ -1,0 +1,168 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="card shadow-lg border-0">
+
+    <div class="card-body p-5">
+
+        <div class="text-center mb-4">
+
+            <h1 class="fw-bold">
+                🤖 GenAI IT Service Desk Assistant
+            </h1>
+
+            <p class="text-muted">
+                Ask your Local AI Assistant to troubleshoot IT issues.
+            </p>
+
+            <span class="badge bg-success fs-6">
+                🟢 Local AI 
+            </span>
+
+        </div>
+
+        <hr>
+
+        <form method="POST">
+
+            {% csrf_token %}
+
+            <div class="mb-3">
+
+                <label class="form-label fw-bold">
+                    Describe your IT Issue
+                </label>
+
+                <textarea
+                    name="query"
+                    rows="4"
+                    class="form-control form-control-lg"
+                    placeholder="Example: VPN is not connecting after Windows update..."
+                    required></textarea>
+
+            </div>
+
+            <div class="text-center">
+
+                <button
+                    type="submit"
+                    class="btn btn-primary btn-lg px-5">
+
+                    🤖 Ask Assistant
+
+                </button>
+
+            </div>
+
+        </form>
+
+        {% if answer %}
+
+        <hr class="my-5">
+
+        <!-- Knowledge Base -->
+
+        {% if source == "Knowledge Base" %}
+
+        <div class="card border-success shadow-sm">
+
+            <div class="card-header bg-success text-white">
+
+                <h4 class="mb-0">
+                    ✅ Suggested Solution
+                </h4>
+
+                <small>
+                    Source : {{ source }}
+                </small>
+
+            </div>
+
+            <div class="card-body">
+
+                <div style="white-space:pre-wrap; line-height:1.8;">
+
+                    {{ answer }}
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Local AI -->
+
+        {% elif source == "Phi-3 (Local Ollama)" %}
+
+        <div class="card border-primary shadow-sm">
+
+            <div class="card-header bg-primary text-white">
+
+                <h4 class="mb-0">
+                    🤖 AI Generated Solution
+                </h4>
+
+                <small>
+                    Source : 🟢 Local AI
+                </small>
+
+            </div>
+
+            <div class="card-body">
+
+                <div style="white-space:pre-wrap; line-height:1.8;">
+
+                    {{ answer }}
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Error -->
+
+        {% else %}
+
+        <div class="card border-danger shadow-sm">
+
+            <div class="card-header bg-danger text-white">
+
+                <h4 class="mb-0">
+                    ❌ Unable To Generate Solution
+                </h4>
+
+            </div>
+
+            <div class="card-body">
+
+                <div style="white-space:pre-wrap;">
+
+                    {{ answer }}
+
+                </div>
+
+                <hr>
+
+                <a
+                    href="{% url 'create_incident' %}"
+                    class="btn btn-danger">
+
+                    Create Incident
+
+                </a>
+
+            </div>
+
+        </div>
+
+        {% endif %}
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+{% endblock %}

@@ -74,7 +74,7 @@ The following screenshots demonstrate the workflow and functionality of the GenA
 The landing page introduces the application and provides navigation to all major modules.
 </p>
 
-<img src="Project User Interface/Index.png" width="100%">
+<img src="servicedesk/Project User Interface/Index.png" width="100%">
 
 <hr>
 
@@ -84,7 +84,7 @@ The landing page introduces the application and provides navigation to all major
 The Dashboard provides an overview of the IT Service Desk, including incident statistics, knowledge base records, and quick navigation to all modules.
 </p>
 
-<img src="Project User Interface/Dashboard.png" width="100%">
+<img src="servicedesk/Project User Interface/Dashboard.png" width="100%">
 
 <hr>
 
@@ -94,7 +94,7 @@ The Dashboard provides an overview of the IT Service Desk, including incident st
 Users can submit IT support requests by entering the incident title, description, category, and priority.
 </p>
 
-<img src="Project User Interface/New Incident.png" width="100%">
+<img src="servicedesk/Project User Interface/New Incident.png" width="100%">
 
 <hr>
 
@@ -104,8 +104,7 @@ Users can submit IT support requests by entering the incident title, description
 The Knowledge Base stores troubleshooting articles and predefined IT solutions maintained by administrators.
 </p>
 
-<img src="Project User Interface/Knowledge Base.png" width="100%">
-
+<img src="servicedesk/Project User Interface/Knowledge Base.png" width="100%">
 <hr>
 
 <h3>5️⃣ Search Knowledge Base</h3>
@@ -114,7 +113,7 @@ The Knowledge Base stores troubleshooting articles and predefined IT solutions m
 Users can search troubleshooting articles using keywords to quickly locate relevant solutions.
 </p>
 
-<img src="Project User Interface/Search Knowledge Base-1.png" width="100%">
+<img src="servicedesk/Project User Interface/Search Knowledge Base-1.png" width="100%">
 
 <hr>
 
@@ -124,7 +123,7 @@ Users can search troubleshooting articles using keywords to quickly locate relev
 Displays matching Knowledge Base articles based on the user's search query.
 </p>
 
-<img src="Project User Interface/Search Knowledge Base-2.png" width="100%">
+<img src="servicedesk/Project User Interface/Search Knowledge Base-2.png" width="100%">
 
 <hr>
 
@@ -134,7 +133,7 @@ Displays matching Knowledge Base articles based on the user's search query.
 Users can describe IT issues in natural language through the AI Assistant interface.
 </p>
 
-<img src="Project User Interface/AI Assistant.png" width="100%">
+<img src="servicedesk/Project User Interface/AI Assistant.png" width="100%">
 
 <hr>
 
@@ -144,7 +143,7 @@ Users can describe IT issues in natural language through the AI Assistant interf
 The application first searches the Knowledge Base and then consults the local Phi-3 Mini model via Ollama to generate intelligent troubleshooting recommendations.
 </p>
 
-<img src="Project User Interface/AI Assistant-1.png" width="100%">
+<img src="servicedesk/Project User Interface/AI Assistant-1.png" width="100%">
 
 <hr>
 
@@ -154,7 +153,7 @@ The application first searches the Knowledge Base and then consults the local Ph
 The AI Assistant provides structured troubleshooting guidance by combining Knowledge Base solutions with AI-generated recommendations.
 </p>
 
-<img src="Project User Interface/AI Response.jpeg" width="100%">
+<img src="servicedesk/Project User Interface/AI Response.jpeg" width="100%">
 
 <hr>
 
@@ -189,23 +188,6 @@ The AI Assistant provides structured troubleshooting guidance by combining Knowl
 ✅ Intelligent Troubleshooting Response
 
 </p>
-
-<hr>
-
-<h2>🚀 Future Enhancements</h2>
-
-<ul>
-<li>Email Notifications</li>
-<li>Multi-user Authentication</li>
-<li>Role-Based Access Control</li>
-<li>Incident Assignment</li>
-<li>AI Chat History</li>
-<li>Voice-based AI Assistant</li>
-<li>Analytics Dashboard</li>
-<li>Cloud Deployment (AWS/Azure)</li>
-</ul>
-
-<hr>
 
 <h2>👨‍💻 Author</h2>
 

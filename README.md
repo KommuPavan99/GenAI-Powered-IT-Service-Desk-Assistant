@@ -154,7 +154,7 @@ The application first searches the Knowledge Base and then consults the local Ph
 The AI Assistant provides structured troubleshooting guidance by combining Knowledge Base solutions with AI-generated recommendations.
 </p>
 
-<img src="Project User Interface/AI Response.png" width="100%">
+<img src="Project User Interface/AI Response.jpeg" width="100%">
 
 <hr>
 

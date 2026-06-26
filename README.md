@@ -112,8 +112,6 @@ The AI Assistant runs entirely on the local computer using <b>Ollama</b> and the
 <hr>
 
 <h2 align="center">🖥️ Project User Interface</h2>
-<h2 align="center">🖥️ Project User Interface</h2>
-
 <p align="center">
 The following screenshots showcase the complete user interface and workflow of the <b>GenAI-Powered IT Service Desk Assistant</b>. Built with <b>Bootstrap 5</b>, the application offers a clean, responsive, and user-friendly experience across all modules.
 </p>
@@ -125,10 +123,6 @@ The interface guides users through the complete IT support process, including in
 <p align="justify">
 The screenshots below demonstrate each module in sequence, highlighting the application's intuitive design, seamless navigation, and complete workflow from incident reporting to AI-generated technical support.
 </p>
-
-<hr>
-
-
 <hr>
 
 <hr>
